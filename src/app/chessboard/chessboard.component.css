@@ -1,0 +1,16 @@
+#knight-board-gap {
+	height: 5vh;
+}
+
+#knight-board-gap-two {
+	height: 2vh;
+}
+
+#num-steps-tag {
+	font-size: 1.75vh;
+	font-weight: lighter;
+}
+
+.board-column {
+	float: left;
+}

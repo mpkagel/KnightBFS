@@ -1,0 +1,13 @@
+<div>
+	<label class="loc-label" for="knight-xstart">Knight Start X, Y (values 1-8): </label>
+	<input class="loc-input" type="number" id="knight-xstart" (change)="changeKnightStart(knight)" [(ngModel)]="knight.xstart" placeholder="xstart">
+	<label class="loc-label" for="knight-ystart"></label>
+	<input class="loc-input" type="number" id="knight-ystart" (change)="changeKnightStart(knight)" [(ngModel)]="knight.ystart" placeholder="ystart">
+</div>
+<div>
+	<label class="loc-label" for="knight-xend">Knight End X, Y (values 1-8): </label>
+	<input class="loc-input" type="number" id="knight-xend" (change)="changeKnightEnd(knight)" [(ngModel)]="knight.xend" placeholder="xend">
+	<label class="loc-label" for="knight-yend"></label>
+	<input class="loc-input" type="number" id="knight-yend" (change)="changeKnightEnd(knight)" [(ngModel)]="knight.yend" placeholder="yend">
+</div>
+<span>(Hit Enter in Any Input Box to Update)</span>

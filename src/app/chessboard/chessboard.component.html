@@ -1,0 +1,83 @@
+<app-knight (knightChangedStart)="updateKnightStart($event)" (knightChangedEnd)="updateKnightEnd($event)"></app-knight>
+<div id="knight-board-gap"></div>
+<div id="num-steps-tag">Number of steps on shortest path: {{numOfSteps}}</div>
+<div id="knight-board-gap-two"></div>
+<div class="board-column">
+	<div><app-chesssquare [square]="squares[7]"></app-chesssquare></div>
+	<div><app-chesssquare [square]="squares[6]"></app-chesssquare></div>
+	<div><app-chesssquare [square]="squares[5]"></app-chesssquare></div>
+	<div><app-chesssquare [square]="squares[4]"></app-chesssquare></div>
+	<div><app-chesssquare [square]="squares[3]"></app-chesssquare></div>
+	<div><app-chesssquare [square]="squares[2]"></app-chesssquare></div>
+	<div><app-chesssquare [square]="squares[1]"></app-chesssquare></div>
+	<div><app-chesssquare [square]="squares[0]"></app-chesssquare></div>
+</div>
+<div class="board-column">
+	<div><app-chesssquare [square]="squares[15]"></app-chesssquare></div>
+	<div><app-chesssquare [square]="squares[14]"></app-chesssquare></div>
+	<div><app-chesssquare [square]="squares[13]"></app-chesssquare></div>
+	<div><app-chesssquare [square]="squares[12]"></app-chesssquare></div>
+	<div><app-chesssquare [square]="squares[11]"></app-chesssquare></div>
+	<div><app-chesssquare [square]="squares[10]"></app-chesssquare></div>
+	<div><app-chesssquare [square]="squares[9]"></app-chesssquare></div>
+	<div><app-chesssquare [square]="squares[8]"></app-chesssquare></div>
+</div>/<div class="board-column">
+	<div><app-chesssquare [square]="squares[23]"></app-chesssquare></div>
+	<div><app-chesssquare [square]="squares[22]"></app-chesssquare></div>
+	<div><app-chesssquare [square]="squares[21]"></app-chesssquare></div>
+	<div><app-chesssquare [square]="squares[20]"></app-chesssquare></div>
+	<div><app-chesssquare [square]="squares[19]"></app-chesssquare></div>
+	<div><app-chesssquare [square]="squares[18]"></app-chesssquare></div>
+	<div><app-chesssquare [square]="squares[17]"></app-chesssquare></div>
+	<div><app-chesssquare [square]="squares[16]"></app-chesssquare></div>
+</div>
+<div class="board-column">
+	<div><app-chesssquare [square]="squares[31]"></app-chesssquare></div>
+	<div><app-chesssquare [square]="squares[30]"></app-chesssquare></div>
+	<div><app-chesssquare [square]="squares[29]"></app-chesssquare></div>
+	<div><app-chesssquare [square]="squares[28]"></app-chesssquare></div>
+	<div><app-chesssquare [square]="squares[27]"></app-chesssquare></div>
+	<div><app-chesssquare [square]="squares[26]"></app-chesssquare></div>
+	<div><app-chesssquare [square]="squares[25]"></app-chesssquare></div>
+	<div><app-chesssquare [square]="squares[24]"></app-chesssquare></div>
+</div>
+<div class="board-column">
+	<div><app-chesssquare [square]="squares[39]"></app-chesssquare></div>
+	<div><app-chesssquare [square]="squares[38]"></app-chesssquare></div>
+	<div><app-chesssquare [square]="squares[37]"></app-chesssquare></div>
+	<div><app-chesssquare [square]="squares[36]"></app-chesssquare></div>
+	<div><app-chesssquare [square]="squares[35]"></app-chesssquare></div>
+	<div><app-chesssquare [square]="squares[34]"></app-chesssquare></div>
+	<div><app-chesssquare [square]="squares[33]"></app-chesssquare></div>
+	<div><app-chesssquare [square]="squares[32]"></app-chesssquare></div>
+</div>
+<div class="board-column">
+	<div><app-chesssquare [square]="squares[47]"></app-chesssquare></div>
+	<div><app-chesssquare [square]="squares[46]"></app-chesssquare></div>
+	<div><app-chesssquare [square]="squares[45]"></app-chesssquare></div>
+	<div><app-chesssquare [square]="squares[44]"></app-chesssquare></div>
+	<div><app-chesssquare [square]="squares[43]"></app-chesssquare></div>
+	<div><app-chesssquare [square]="squares[42]"></app-chesssquare></div>
+	<div><app-chesssquare [square]="squares[41]"></app-chesssquare></div>
+	<div><app-chesssquare [square]="squares[40]"></app-chesssquare></div>
+</div>
+<div class="board-column">
+	<div><app-chesssquare [square]="squares[55]"></app-chesssquare></div>
+	<div><app-chesssquare [square]="squares[54]"></app-chesssquare></div>
+	<div><app-chesssquare [square]="squares[53]"></app-chesssquare></div>
+	<div><app-chesssquare [square]="squares[52]"></app-chesssquare></div>
+	<div><app-chesssquare [square]="squares[51]"></app-chesssquare></div>
+	<div><app-chesssquare [square]="squares[50]"></app-chesssquare></div>
+	<div><app-chesssquare [square]="squares[49]"></app-chesssquare></div>
+	<div><app-chesssquare [square]="squares[48]"></app-chesssquare></div>
+</div>
+<div class="board-column">
+	<div><app-chesssquare [square]="squares[63]"></app-chesssquare></div>
+	<div><app-chesssquare [square]="squares[62]"></app-chesssquare></div>
+	<div><app-chesssquare [square]="squares[61]"></app-chesssquare></div>
+	<div><app-chesssquare [square]="squares[60]"></app-chesssquare></div>
+	<div><app-chesssquare [square]="squares[59]"></app-chesssquare></div>
+	<div><app-chesssquare [square]="squares[58]"></app-chesssquare></div>
+	<div><app-chesssquare [square]="squares[57]"></app-chesssquare></div>
+	<div><app-chesssquare [square]="squares[56]"></app-chesssquare></div>
+</div>

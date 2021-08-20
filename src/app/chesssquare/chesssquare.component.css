@@ -1,0 +1,9 @@
+.chess-square {
+	width: 4.7vh;
+	height: 4.7vh;
+	border: 0.12vh solid black;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 2.2vh;
+}

@@ -1,0 +1,9 @@
+.loc-label {
+	float: left;
+	width: 13em;
+	margin-right: 1em;
+}
+
+.loc-input {
+	width: 3em;
+}
